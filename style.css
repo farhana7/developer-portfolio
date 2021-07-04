@@ -5,16 +5,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 2%;
+    
 }
 .half-width ima{
     width:500%
@@ -35,4 +39,30 @@ section{
     background-image: url(images/Rule.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.death-tomb{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.tomb-tomb{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+    }
+#d-t{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, tomato);
+    border-image-slice: 1;
+}
+#d-t{
+    border-left: 7px solid;
+    border-image: linear-gradient,(green,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
